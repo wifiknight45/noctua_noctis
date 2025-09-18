@@ -47,8 +47,8 @@ Born from the need for both depth and clarity in network analysis, Noctua Noctis
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/noctua-noctis.git
-cd noctua-noctis
+git clone https://github.com/wifiknight45/noctua_noctis.git
+cd noctua_noctis
 pip install -r requirements.txt
 ```
 
@@ -149,7 +149,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*"In the realm of network security, knowledge is the light that pierces the darkness. Noctua Noctis is your faithful night owl, watching over the digital frontier."*
+*"Revolution is the struggle between the past and the future. And the future has just begun."
+         -julian assange
 
 ---
 
