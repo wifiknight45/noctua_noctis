@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""
-noctua_noctis.py
-----------------
-"Noctua Noctis" = "Night Owl" (Latin)
-A mythic network sweep and service fingerprinting tool.
-
-Features:
-- Host discovery & service enumeration via Nmap
-- Optional Scapy packet probes for verification
-- Structured output with Pandas
-- CSV/JSON export
-- Optional Matplotlib visualization
-- Modular design for CLI & Jupyter/Colab
-
-Usage:
-    python noctua_noctis.py 192.168.1.0/24 --visualize --scapy-probe
-"""
 
 import argparse
 from scanner import nmap_scan, data_parser, visualizer, scapy_probe
