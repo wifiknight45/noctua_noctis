@@ -24,21 +24,21 @@ Born from the need for both depth and clarity in network analysis, Noctua Noctis
 
 ## ✨ Key Features
 
-### 🎯 **Dual-Layer Reconnaissance**
+###  **Dual-Layer Reconnaissance**
 - **Primary Sweep**: Lightning-fast Nmap-based host discovery and port enumeration
 - **Verification Layer**: Optional Scapy packet probes for enhanced accuracy and stealth
 
-### 📊 **Intelligent Data Processing**
+###  **Intelligent Data Processing**
 - Structured output via pandas DataFrames for advanced analysis
 - Cross-verification between Nmap and Scapy results
 - Export capabilities: CSV and JSON formats
 
-### 📈 **Visual Intelligence**
+###  **Visual Intelligence**
 - Optional matplotlib-powered port distribution graphs
 - Clear visual representation of network topology
 - Publication-ready charts for reporting
 
-### 🔧 **Modular Architecture**
+###  **Modular Architecture**
 - CLI-ready for automated workflows
 - Jupyter/Google Colab compatible for interactive analysis
 - Extensible design for custom probe development
@@ -64,7 +64,7 @@ python noctua_noctis.py 192.168.1.0/24 --visualize --scapy-probe
 python noctua_noctis.py 10.0.0.0/8 --output corporate_sweep --visualize
 ```
 
-## 📋 Command Line Options
+##  Command Line Options
 
 | Option | Description | Example |
 |--------|-------------|---------|
@@ -73,7 +73,7 @@ python noctua_noctis.py 10.0.0.0/8 --output corporate_sweep --visualize
 | `--visualize` | Generate port distribution graphs | `--visualize` |
 | `--scapy-probe` | Enable Scapy verification probes | `--scapy-probe` |
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -88,7 +88,7 @@ python noctua_noctis.py 10.0.0.0/8 --output corporate_sweep --visualize
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 📁 Module Breakdown
+##  Module Breakdown
 
 ### `nmap_scan.py`
 The primary reconnaissance engine leveraging python-nmap for comprehensive host discovery and service enumeration.
@@ -102,7 +102,7 @@ Pandas-powered data transformation layer that structures raw scan results into a
 ### `visualizer.py`
 Matplotlib-based visualization engine for creating insightful network topology charts and port distribution graphs.
 
-## 📊 Output Examples
+##  Output Examples
 
 ### CSV Export Sample
 ```csv
@@ -118,7 +118,7 @@ host,port,protocol,state,service,version,scapy_verified
 - Host availability heatmaps
 - Verification status overlays
 
-## 🛡️ Ethical Usage
+##  Ethical Usage
 
 **Noctua Noctis** is designed for legitimate security testing, network administration, and educational purposes. Users are responsible for:
 
@@ -141,7 +141,7 @@ numpy>=1.19.0
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Nmap Project** - For the foundational scanning capabilities
 - **Scapy Community** - For the powerful packet manipulation library
